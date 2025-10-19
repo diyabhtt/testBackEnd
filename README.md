@@ -1,4 +1,4 @@
-# FinGalaxy - AI-Powered Financial Analysis Backend
+# CelestialStocks 
 
 Real-time financial sentiment analysis and conversational AI for stocks and crypto, powered by FinBERT and SambaNova LLM.
 
@@ -48,7 +48,7 @@ python3 app.py
 3. Caches model locally for instant future startupsour_sambanova_api_key
 4. Begins monitoring stocks/cryptoa-4-Maverick-17B-128E-Instruct
 SAMBA_URL=https://api.sambanova.ai/v1
-## ⚙️ Configuration
+## Configuration
 
 Create a `.env` file with:CE_THRESH=0.005
 BUY_THRESH=0.65
