@@ -1,8 +1,8 @@
-# 🚀 FinGalaxy - AI-Powered Financial Analysis Backend
+# FinGalaxy - AI-Powered Financial Analysis Backend
 
 Real-time financial sentiment analysis and conversational AI for stocks and crypto, powered by FinBERT and SambaNova LLM.
 
-## 🎯 Features
+## Features
 
 - **Real-time Price Monitoring** - Track stocks & crypto with configurable alerts
 - **AI Sentiment Analysis** - FinBERT analyzes news + Reddit for BUY/SELL/HOLD signals
@@ -10,7 +10,7 @@ Real-time financial sentiment analysis and conversational AI for stocks and cryp
 - **Alexa-Ready** - JSON alerts ready for voice assistant integration
 - **Fast & Efficient** - Async I/O, batch ML processing, cumulative tracking
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python 3.9+** - Core language
 - **PyTorch + Transformers** - FinBERT sentiment analysis
@@ -19,7 +19,7 @@ Real-time financial sentiment analysis and conversational AI for stocks and cryp
 - **asyncpraw** - Reddit sentiment analysis
 - **httpx** - Async HTTP for news fetching
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -34,7 +34,7 @@ cp .env.example .env
 # Edit .env with your API keys
 ```
 # First run will download FinBERT model (~800MB)
-## 🚀 First Runnutes depending on your connection
+## First Runnutes depending on your connection
 python3 app.py
 ```bash
 # First run automatically downloads FinBERT model (~800MB)
@@ -43,10 +43,10 @@ python3 app.py
 ```
 
 **What happens on first run:**Create a `.env` file with:
-1. ✅ Checks for local model cache in `model_cache/`
-2. 📥 Downloads FinBERT from Hugging Face Hub if not found
-3. 💾 Caches model locally for instant future startupsour_sambanova_api_key
-4. 🚀 Begins monitoring stocks/cryptoa-4-Maverick-17B-128E-Instruct
+1. Checks for local model cache in `model_cache/`
+2. Downloads FinBERT from Hugging Face Hub if not found
+3. Caches model locally for instant future startupsour_sambanova_api_key
+4. Begins monitoring stocks/cryptoa-4-Maverick-17B-128E-Instruct
 SAMBA_URL=https://api.sambanova.ai/v1
 ## ⚙️ Configuration
 
@@ -66,7 +66,7 @@ REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
 ```
 t without Alexa)
-## 🚀 Usage```bash
+## Usage```bash
 
 
 
